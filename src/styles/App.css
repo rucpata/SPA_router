@@ -1,0 +1,38 @@
+.app {
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   background-color: rosybrown;
+   color: #222;
+}
+
+header{
+    flex-basis: 30vh;
+    background-color: seagreen;
+}
+
+main{
+    display: flex;
+    flex-grow: 1;
+    padding: 30px 0;
+    background-color: seashell;
+}
+
+aside {
+    min-width: 240px;
+    background-color: slateblue;
+}
+
+section.page {
+    background-color: rgb(187, 29, 153);
+    flex-grow: 1;
+}
+
+footer {
+    background-color: sienna;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
