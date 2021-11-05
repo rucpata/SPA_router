@@ -1,4 +1,5 @@
 import React from 'react';
+import Article from '../components/Article.js';
 
 const articles = [
     {
@@ -22,13 +23,13 @@ const articles = [
 ]
 
 const HomePage = () => {
-    const article = this.articles.map(article => (
-        
+    const artList = articles.map(article => (
+        <Article key={article.id} {...article}/>
     ))
     
     return (
         <div className="home">
-            home
+            {artList}
         </div>
     );
 }

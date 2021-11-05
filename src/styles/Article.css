@@ -1,0 +1,17 @@
+article {
+    margin: 40px;
+}
+
+article h2{ 
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+article span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 15px;
+}
