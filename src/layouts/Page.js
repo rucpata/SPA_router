@@ -6,14 +6,15 @@ import ContactPage from '../pages/ContactPage';
 import AdminPage from '../pages/AdminPage';
 import ErrorPages from '../pages/ErrorPage';
 import LoginPage from '../pages/LoginPage';
-
+import ProductListPage from '../pages/ProductListPage';
 
 const Page = () => {
     return (
         <>
             <Switch>
                 <Route path="/" exact component={HomePage}/>
-                <Route path="/product" component={ProductPage}/>
+                <Route path="/products" component={ProductListPage}/>
+                <Route path="/product/:id" component={ProductPage}/>
                 <Route path="/contact" component={ContactPage}/>
                 <Route path="/admin" component={AdminPage}/>
                 <Route path="/login" component={LoginPage}/>
